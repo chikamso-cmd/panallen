@@ -2948,11 +2948,27 @@ left: 2em;
     max-width: 20em;
   }
 }
+@media(max-width: 768px) {
+  .section-title h2{
+font-size: 20px
+  }
+}
+@media(max-width: 425px) {
+  .section-title h2{
+font-size: 24px
+  }
+}
+@media(max-width: 375px) {
+  .section-title h2{
+font-size: 20px
+  }
+}
 @media(max-width: 320px) {
   .section-title h2{
 font-size: 20px
   }
 }
+
 .cut {
   overflow: hidden;
   padding: 0;
