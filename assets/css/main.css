@@ -2903,3 +2903,55 @@ section {
   color: var(--color-inverse);
   background-color: rgba(var(--color-primary-rgb), 0.8);
 }
+.container-img{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/contact/ketut-subiyanto-4559605.jpg');
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.container-img h2{
+color: #fff;
+font-size: 50px;
+position: absolute;
+top: 4em;
+font-weight: bolder;
+left: 2em;
+}
+.about-image{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/about/antoni-shkraba-production-8837566-1.jpg');
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.about-image h2{
+color: #fff;
+font-size: 50px;
+position: absolute;
+top: 4em;
+font-weight: bold;
+left: 2em;
+}
+@media (max-width: 768px){
+  .container-img{
+   height: 200px;
+  }
+  .container-img h2{
+    font-size: 30px; 
+  }
+  .cut{
+    max-width: 20em;
+  }
+}
+.cut {
+  overflow: hidden;
+  padding: 0;
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+}
