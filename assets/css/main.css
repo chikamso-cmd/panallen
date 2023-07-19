@@ -2931,9 +2931,9 @@ left: 2em;
 }
 .about-image h2{
 color: #fff;
-font-size: 50px;
+font-size: 40px;
 position: absolute;
-top: 4em;
+top: 5em;
 font-weight: bold;
 left: 2em;
 }
@@ -2967,12 +2967,37 @@ font-size: 20px
   .section-title h2{
 font-size: 20px
   }
+  .cut{
+    margin: 0;
+  }
+  .core-values-content h2{
+    font-size: 19px;
+  }
 }
-
+.wrapper{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+align-items: center;
+}
 .cut {
   overflow: hidden;
   padding: 0;
   width: 400px;
   height: 100%;
   border-radius: 10px;
+}
+.cut p{
+  font-size: 15px;
+  font-family: var(--font-primary);
+}
+.content p{
+    font-size: 16px;
+    font-family: var(--font-primary);
+}
+.core p{
+  font-size: 1px;
+  font-family: cursive;
 }
