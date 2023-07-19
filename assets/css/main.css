@@ -3018,3 +3018,27 @@ align-items: center;
   font-weight: bold;
   left: 2em;
   }
+  .clients{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/services/bg1-service-detail.jpg');
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  }
+  .clientss{
+    position: relative;
+    /* background-color: red; */
+  }
+  .clientss::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 6em;
+    background-color: green;
+    top: 0em;
+  }
+  .clients h2{
+    color: #fff;
+  }
