@@ -2952,6 +2952,10 @@ left: 2em;
   .section-title h2{
 font-size: 20px
   }
+ .clientss h2{
+    color: #fff;
+    font-size: 26px;
+  }
 }
 @media(max-width: 425px) {
   .section-title h2{
@@ -2962,6 +2966,7 @@ font-size: 24px
   .section-title h2{
 font-size: 20px
   }
+  
 }
 @media(max-width: 320px) {
   .section-title h2{
@@ -3019,26 +3024,31 @@ align-items: center;
   left: 2em;
   }
   .clients{
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/services/bg1-service-detail.jpg');
-  height: 230px;
+  background: url('/assets/img/services/bg1-service-detail.jpg');
+  height: 150px;
   width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  border-radius: 10px;
   }
   .clientss{
     position: relative;
-    /* background-color: red; */
+    width: 100%;
+    margin-inline: auto;
   }
-  .clientss::before{
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 6em;
-    background-color: green;
-    top: 0em;
+  .clientss h2{
+color: #fff;
+font-size: 25px;
+font-weight: bolder;
   }
-  .clients h2{
+  .clientss p{
     color: #fff;
+    text-align: left;
+}
+@media (max-width: 425px) {
+  .clients h2{
+    font-size: 20px;
   }
+}
