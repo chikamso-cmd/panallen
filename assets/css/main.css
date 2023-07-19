@@ -3001,3 +3001,20 @@ align-items: center;
   font-size: 1px;
   font-family: cursive;
 }
+.services-image{
+  background:url('/assets/img/services/pheader-service.jpg');
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.services-image h2{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 5em;
+  font-weight: bold;
+  left: 2em;
+  }
