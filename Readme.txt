@@ -1,3 +1,3 @@
 Site Name: Panallen
-Template URL: www.Panallenenergy.com
+Site URL: www.panallenenergy.com
 Author: Panallen.com

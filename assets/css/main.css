@@ -3051,4 +3051,15 @@ font-weight: bolder;
   .clients h2{
     font-size: 20px;
   }
+  .section-title h2{
+
+  }
+}
+@media (max-width: 320px) {
+  .section-title h2{
+font-size: 17px;
+  }
+  .section-title p{
+    font-size: 14px;
+      }
 }
