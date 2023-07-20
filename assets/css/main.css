@@ -3051,8 +3051,6 @@ section {
   .clients h2 {
     font-size: 20px;
   }
-  /* .section-title h2 {
-  } */
 }
 @media (max-width: 320px) {
   .section-title h2 {
@@ -3062,3 +3060,10 @@ section {
     font-size: 14px;
   }
 }
+.icon-boxes{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
