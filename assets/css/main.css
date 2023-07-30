@@ -2962,6 +2962,11 @@ section {
   .section-title h2 {
     font-size: 24px;
   }
+  .hero .container {
+    /* position: absolute; */
+    z-index: 3;
+    /* top: 7rem; */
+  }
 }
 @media (max-width: 375px) {
   .section-title h2 {
@@ -3171,7 +3176,7 @@ font-size: 15px;
   left: 2em;
 }
 .services-image5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/ai-humanoid-robot-touching-virtual-hologram-screen-showing-concept-big-data_31965-7998.webpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/ai-humanoid-robot-touching-virtual-hologram-screen-showing-concept-big-data_31965-7998.webp");
   height: 330px;
   width: 100%;
   background-position: center;
