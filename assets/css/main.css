@@ -3051,6 +3051,26 @@ section {
   .clients h2 {
     font-size: 20px;
   }
+  .header-text{
+    text-align: justify;
+  }
+  .content p{
+    text-align: justify;
+  }
+  .missions{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+  }
+  .mission{
+     /* background-color: red;  */
+    width: 100%;
+  }
+  .mission p{
+text-align: justify;
+font-size: 15px;
+  }
 }
 @media (max-width: 320px) {
   .section-title h2 {
@@ -3065,5 +3085,38 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.text{
+  text-transform: uppercase;
+}
+.missions{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+  padding: 15px;
+}
+.mission p{
+  font-size: 20px;
+}
+.services-image1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/Data-Analytics-2.jpg");
+  height: 330px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.services-image1 h2 {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 5em;
+  font-weight: bold;
+  left: 2em;
 }
 
