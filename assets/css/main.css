@@ -3056,25 +3056,25 @@ section {
   .clients h2 {
     font-size: 20px;
   }
-  .header-text{
+  .header-text {
     text-align: justify;
   }
-  .content p{
+  .content p {
     text-align: justify;
   }
-  .missions{
+  .missions {
     display: flex;
     flex-direction: row;
     /* gap: 20px; */
     flex-wrap: wrap;
   }
-  .mission{
-     /* background-color: red;  */
+  .mission {
+    /* background-color: red;  */
     width: 100%;
   }
-  .mission p{
-text-align: justify;
-font-size: 15px;
+  .mission p {
+    text-align: justify;
+    font-size: 15px;
   }
 }
 @media (max-width: 320px) {
@@ -3085,16 +3085,16 @@ font-size: 15px;
     font-size: 14px;
   }
 }
-.icon-boxes{
+.icon-boxes {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.text{
+.text {
   text-transform: uppercase;
 }
-.missions{
+.missions {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -3104,11 +3104,12 @@ font-size: 15px;
   position: relative;
   padding: 15px;
 }
-.mission p{
+.mission p {
   font-size: 20px;
 }
 .services-image1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/Data-Analytics-2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/Data-Analytics-2.jpg");
   height: 330px;
   width: 100%;
   background-position: center;
@@ -3125,7 +3126,8 @@ font-size: 15px;
   left: 2em;
 }
 .services-image2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/Sales-manager-using-multiple-tools_306699899.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/Sales-manager-using-multiple-tools_306699899.webp");
   height: 330px;
   width: 100%;
   background-position: center;
@@ -3142,7 +3144,8 @@ font-size: 15px;
   left: 2em;
 }
 .services-image3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
   height: 330px;
   width: 100%;
   background-position: center;
@@ -3159,7 +3162,8 @@ font-size: 15px;
   left: 2em;
 }
 .services-image4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/cyber\ secirity.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/cyber\ secirity.jpg");
   height: 330px;
   width: 100%;
   background-position: center;
@@ -3176,7 +3180,8 @@ font-size: 15px;
   left: 2em;
 }
 .services-image5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/service details/ai-humanoid-robot-touching-virtual-hologram-screen-showing-concept-big-data_31965-7998.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/ai-humanoid-robot-touching-virtual-hologram-screen-showing-concept-big-data_31965-7998.webp");
   height: 330px;
   width: 100%;
   background-position: center;
@@ -3192,5 +3197,3 @@ font-size: 15px;
   font-weight: bold;
   left: 2em;
 }
-
-
