@@ -21,6 +21,12 @@
   --color-box-background-rgb: 255, 255, 255;
   --color-inverse: #ffffff;
   --color-inverse-rgb: 255, 255, 255;
+  --e-global-color-730f5da: #0A2C48;
+  --g-global-color-730f5da: 10, 44, 72;
+  --e-global-color-accent: #61CE70;
+  --e-global-color-orange: #f89320;
+  --f-global-color-orange: 248, 147, 32;
+
 }
 
 /* Nav Menu Colors */
@@ -48,14 +54,20 @@ body {
 }
 
 a {
-  color: var(--color-primary);
+  color: #f8931fbe;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: rgba(var(--color-primary-rgb), 0.7);
+  color: var(--e-global-color-orange);
   text-decoration: none;
+}
+.head h1{
+  color: var(--e-global-color-730f5da);
+}
+.value{
+color: var(--e-global-color-accent);
 }
 
 h1,
@@ -83,7 +95,7 @@ section {
 }
 
 .section-title h2 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-size: 32px;
   font-weight: 700;
   position: relative;
@@ -94,7 +106,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--color-primary);
+  background: var(--e-global-color-orange);
   display: inline-block;
 }
 
@@ -169,7 +181,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 66px;
   margin-right: 6px;
 }
 
@@ -257,7 +269,7 @@ section {
   --color-background: #ffffff;
   --color-secondary: #444444;
   --color-nav: #444444;
-  --color-nav-hover: #d83535;
+  --color-nav-hover: var(--e-global-color-orange);
 }
 
 /*--------------------------------------------------------------
@@ -486,7 +498,7 @@ section {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--color-nav-dropdown-hover);
+    color: var(--e-global-color-orange);
   }
 
   .navmenu .active i,
@@ -555,7 +567,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--color-primary);
+  background-color: var(--e-global-color-accent);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -569,7 +581,7 @@ section {
 }
 
 .scroll-top:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.8);
+  /* background-color: rgba(var(--color-primary-rgb), 0.8); */
   color: #ffffff;
 }
 
@@ -691,7 +703,7 @@ section {
 }
 
 .footer .footer-about .logo span {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -718,12 +730,13 @@ section {
 }
 
 .footer .social-links a:hover {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: #f8931fbe;
+  border-color: var(--e-global-color-orange);
+  /* background: #f8931fbe; */
 }
 
 .footer h4 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-size: 16px;
   font-weight: bold;
   position: relative;
@@ -763,7 +776,7 @@ section {
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--color-primary);
+  color: #f8931fbe;
 }
 
 .footer .footer-contact p {
@@ -860,15 +873,17 @@ section {
 
 .hero .sign-up-form input[type="submit"] {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: var(--e-global-color-orange);
+  border-color: var(--e-global-color-orange);
   padding: 8px 20px 10px 20px;
   border-radius: 7px;
   color: var(--color-inverse);
+  transition: all ease-in-out 0.5s;
 }
 
 .hero .sign-up-form input[type="submit"]:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.9);
+  background: var(--e-global-color-730f5da);
+  border-color: var(--e-global-color-730f5da);
 }
 
 @media (max-width: 768px) {
@@ -924,14 +939,14 @@ section {
   font-weight: 500;
   line-height: 19px;
   padding: 10px 20px;
-  background: rgba(var(--color-primary-rgb));
+  background: var(--e-global-color-orange);
   color: #fff;
   border-radius: 7px;
   display: inline-block;
 }
 
 .about .content h2 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-weight: 700;
 }
 
@@ -940,7 +955,7 @@ section {
 }
 
 .about .content .read-more {
-  background: var(--color-primary);
+  background: var(--e-global-color-orange);
   color: var(--color-inverse);
   font-family: var(--font-primary);
   font-weight: 500;
@@ -962,7 +977,8 @@ section {
 }
 
 .about .content .read-more:hover {
-  background: #ed6a6a;
+  background: var(--e-global-color-730f5da);
+  border-color: var(--e-global-color-730f5da);
   padding-right: 19px;
 }
 
@@ -990,7 +1006,7 @@ section {
   line-height: 0;
   transition: all 0.4s ease-out 0s;
   background-color: rgba(var(--color-primary-rgb), 0.05);
-  color: var(--color-primary);
+  color: var(--e-global-color-orange);
 }
 
 .about .icon-box h3 {
@@ -1005,7 +1021,7 @@ section {
 }
 
 .about .icon-box:hover i {
-  background-color: var(--color-primary);
+  background-color: var(--e-global-color-orange);
   color: var(--color-inverse);
 }
 
@@ -1101,7 +1117,7 @@ section {
   left: 0;
   width: 30px;
   height: 2px;
-  background: var(--color-primary);
+  background: var(--e-global-color-orange);
   border-right: 5px solid var(--color-background);
 }
 
@@ -1126,7 +1142,7 @@ section {
   content: "";
   height: 30px;
   width: 30px;
-  background: rgba(var(--color-primary-rgb), 0.3);
+  background: rgba(var(--f-global-color-orange), 0.3);
   border-radius: 50px;
   z-index: 1;
   bottom: -15px;
@@ -1145,7 +1161,7 @@ section {
 }
 
 .services .service-item .title a:hover {
-  color: var(--color-primary);
+  color: #f8931fbe;
 }
 
 .services .service-item .description {
@@ -1176,14 +1192,15 @@ section {
 }
 
 .features .features-item .btn-get-started {
-  background-color: var(--color-primary);
+  background-color: var(--e-global-color-orange);
   color: var(--color-inverse);
   padding: 8px 30px 10px 30px;
   border-radius: 4px;
 }
 
 .features .features-item .btn-get-started:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.9);
+  background: var(--e-global-color-730f5da);
+  border-color: var(--e-global-color-730f5da);
 }
 
 .features .features-item ul {
@@ -1204,7 +1221,7 @@ section {
 .features .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .features .features-item img {
@@ -1517,7 +1534,7 @@ section {
 /* Faq Section - Home Page
 ------------------------------*/
 .faq .content h3 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-weight: 400;
   font-size: 34px;
 }
@@ -1552,12 +1569,12 @@ section {
 }
 
 .faq .faq-container .faq-item h3 .num {
-  color: var(--color-primary);
+  color: #111;
   padding-right: 5px;
 }
 
 .faq .faq-container .faq-item h3:hover {
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .faq .faq-container .faq-item .faq-content {
@@ -1584,11 +1601,11 @@ section {
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .faq .faq-container .faq-active h3 {
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1762,7 +1779,7 @@ section {
 }
 
 .testimonials .info h3 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-weight: 700;
   font-size: 32px;
 }
@@ -1859,7 +1876,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background: #f8931fbe;
 }
 
 @media (max-width: 767px) {
@@ -1943,7 +1960,7 @@ section {
 .contact .info-item i {
   font-size: 38px;
   line-height: 0;
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .contact .info-item h3 {
@@ -2037,7 +2054,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: var(--color-primary);
+background-color: var(--e-global-color-accent);
   color: var(--color-inverse);
   border: 0;
   padding: 10px 30px;
@@ -2045,9 +2062,9 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: rgba(var(--color-primary-rgb), 0.8);
-}
+/* .contact .php-email-form button[type="submit"]:hover {
+  background: rgba(var( --e-global-color-accent), 0.5);
+} */
 
 @keyframes animate-loading {
   0% {
@@ -2246,8 +2263,8 @@ section {
 }
 
 .service-details .services-list a {
-  color: rgba(var(--color-default-rgb), 0.8);
-  background-color: rgba(var(--color-default-rgb), 0.04);
+   color: rgba(var(--color-default-rgb), 0.8); 
+  background-color: rgba(var(--g-global-color-730f5da), 0.04);
   display: flex;
   align-items: center;
   padding: 12px 15px;
@@ -2262,21 +2279,24 @@ section {
 .service-details .services-list a i {
   font-size: 16px;
   margin-right: 8px;
-  color: var(--color-primary);
+  /* color: var(--color-default); */
+}
+
+.service-details .services-list a i:hover {
+  color: var(--color-background); 
 }
 
 .service-details .services-list a.active {
-  color: var(--color-inverse);
-  background-color: var(--color-primary);
+ background-color: var(--e-global-color-730f5da);
+ color: var(--color-inverse);
 }
-
 .service-details .services-list a.active i {
-  color: var(--color-inverse);
+   color: var(--color-inverse); 
 }
 
 .service-details .services-list a:hover {
-  background-color: rgba(var(--color-primary-rgb), 0.05);
-  color: var(--color-primary);
+   background-color: rgba(var(--g-global-color-730f5da)); 
+  color: #fff; 
 }
 
 .service-details .download-catalog a {
@@ -2300,15 +2320,15 @@ section {
 .service-details .download-catalog a i {
   font-size: 24px;
   margin-right: 8px;
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .service-details .download-catalog a:hover {
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
 
 .service-details .help-box {
-  background-color: var(--color-primary);
+  background-color: var(--e-global-color-accent);
   color: var(--color-inverse);
   margin-top: 30px;
   padding: 30px 15px;
@@ -2327,7 +2347,7 @@ section {
 }
 
 .service-details h3 {
-  color: var(--color-secondary);
+  color: var(--e-global-color-730f5da);
   font-size: 26px;
   font-weight: 700;
 }
@@ -2351,9 +2371,12 @@ section {
 .service-details ul i {
   font-size: 20px;
   margin-right: 8px;
-  color: var(--color-primary);
+  color: var(--e-global-color-accent);
 }
-
+/* service details color */
+.danger{
+  color: var(--e-global-color-730f5da);
+}
 /*--------------------------------------------------------------
 # Blog Page
 --------------------------------------------------------------*/
@@ -3196,4 +3219,7 @@ section {
   top: 5em;
   font-weight: bold;
   left: 2em;
+}
+.green{
+  color: var(--e-global-color-accent);
 }
