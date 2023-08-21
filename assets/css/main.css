@@ -3305,6 +3305,7 @@ button {
  
  button:hover .circle {
   width: 100%;
+  background-color: var(--e-global-color-orange);
  }
  
  button:hover .circle .icon.arrow {
