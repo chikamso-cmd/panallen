@@ -63,6 +63,9 @@ a:hover {
   color: var(--e-global-color-orange);
   text-decoration: none;
 }
+.navmenu ul{
+  gap: 30px;
+}
 .head h1{
   color: var(--e-global-color-730f5da);
 }
@@ -160,12 +163,12 @@ section {
   padding-left: 10px;
 }
 
-.page-title nav ol li + li::before {
+/* .page-title nav ol li + li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
   color: rgba(var(--color-default-rgb), 0.3);
-}
+} */
 
 /*--------------------------------------------------------------
 # Global Header
@@ -2964,6 +2967,21 @@ background-color: var(--e-global-color-accent);
   font-weight: bold;
   left: 2em;
 }
+@media (max-width: 1111px){
+/* .linkss:hover{
+display: block;
+visibility: visible;
+background-color: red;
+} */
+.togg .menu li a{
+  display: block;
+  background-color: red;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  visibility: visible;
+}
+}
 @media (max-width: 768px) {
   .container-img {
     height: 200px;
@@ -2974,8 +2992,6 @@ background-color: var(--e-global-color-accent);
   .cut {
     max-width: 20em;
   }
-}
-@media (max-width: 768px) {
   .section-title h2 {
     font-size: 20px;
   }
@@ -3316,3 +3332,53 @@ button {
  button:hover .button-text a {
   color: #fff;
  }
+ .value-slides{
+  margin-left: 25px;
+
+ }
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: var(--e-global-color-730f5da);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition: all ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-transform: capitalize;
+  background-color: rgba(var(--e-global-color-730f5da) 0.4);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: var(--e-global-color-730f5da); color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: var(--e-global-color-orange);}
