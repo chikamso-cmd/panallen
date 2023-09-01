@@ -325,7 +325,7 @@ section {
   .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--color-nav-hover);
+    color: var(--e-global-color-orange);
   }
 
   .navmenu .dropdown ul {
@@ -3023,6 +3023,9 @@ background-color: red;
   .section-title h2 {
     font-size: 20px;
   }
+  .carousel-texts p{
+    font-size: 16px;
+  }
 }
 @media (max-width: 320px) {
   .section-title h2 {
@@ -3033,6 +3036,9 @@ background-color: red;
   }
   .core-values-content h2 {
     font-size: 19px;
+  }
+  .dropbtn{
+    margin: 6px;
   }
 }
 .wrap {
@@ -3394,3 +3400,240 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: var(--e-global-color-orange);}
+/* read more btn */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.read-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.read-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ button.read-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.read-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.read-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.read-more .button-text a {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+  background-color: var(--e-global-color-orange);
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text a {
+  color: #fff;
+ }
+ .content-center{
+  margin-inline: auto;
+  width: 100%;
+  padding: 15px;
+ }
+ .note{
+  background: var(--e-global-color-730f5da);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  
+ }
+ .card-wrapper{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  gap: 20px;
+  max-width: 100%;
+  margin-inline: auto;
+  padding: 10px;
+ }
+ .card-body{
+  width: 230px;
+  /* height: 280px; */
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+ }
+ .card-body h2{
+font-size: 16px;
+font-weight: bolder;
+color: var(--e-global-color-730f5da);
+ }
+ .card-body p{
+  font-size: 15px;
+ }
+ .service{
+  color: var(--e-global-color-730f5da);
+ }
+ .heading3{
+  background: var(--e-global-color-730f5da);
+  width: 25%;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+ }
+ button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.card-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.card-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ button.card-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.card-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.card-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.card-more .button-text a {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: var(--e-global-color-730f5da);
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+  background-color: var(--e-global-color-orange);
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text a {
+  color: #fff;
+ }
+ @media (max-width: 768px){
+  .heading3{
+    background: var(--e-global-color-730f5da);
+    width: 35%;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+   }
+ }
