@@ -184,7 +184,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 66px;
+  max-height: 100px;
   margin-right: 6px;
 }
 
@@ -2967,6 +2967,24 @@ background-color: var(--e-global-color-accent);
   font-weight: bold;
   left: 2em;
 }
+.career-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/img/career.png");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.career-image h2 {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 5em;
+  font-weight: bold;
+  left: 2em;
+}
 @media (max-width: 1111px){
 /* .linkss:hover{
 display: block;
@@ -2999,6 +3017,24 @@ background-color: red;
     color: #fff;
     font-size: 26px;
   }
+  .career-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/assets/img/career.png");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .career-image h2 {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 5em;
+    font-weight: bold;
+    left: 2em;
+  }
 }
 @media (max-width: 425px) {
   .section-title h2 {
@@ -3017,6 +3053,14 @@ background-color: red;
     align-items: center;
     gap: 15px;
     margin-right: 60px;
+  }
+  .career-image h2 {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 7em;
+    font-weight: bold;
+    left: 1em;
   }
 }
 @media (max-width: 375px) {
