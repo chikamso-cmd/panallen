@@ -3414,6 +3414,25 @@ width: 100%;
   font-weight: bold;
   left: 2em;
 }
+/* business analytics learning */
+.services-image11 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
+  height: 530px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.services-image11 h2 {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 5em;
+  font-weight: bold;
+  left: 2em;
+}
 .green{
   color: var(--e-global-color-accent);
 }
