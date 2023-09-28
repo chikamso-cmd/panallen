@@ -1,0 +1,215 @@
+@media (max-width:768px) {
+    .services-image1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/DATAANALYTICSfinal-1686237252944.png");
+        height: 400px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image1 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      } 
+
+      .services-image2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/Sales-manager-using-multiple-tools_306699899.webp");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image2 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      .services-image3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image3 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      .services-image4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/cyber\ secirity.jpg");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image4 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      .services-image5 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/machine-learning-in-accounting-420x280.jpg.webp");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image5 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      /* it audit header page image */
+      .services-image6 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/IT-Audit.jpg");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image6 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      
+      /* machne learning header page */
+      .services-image7 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/machine-learning-in-accounting-420x280.jpg.webp");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image7 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      /* iso2700 header page */
+      .services-image7 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/What-is-PCI-Compliance-_What-is-changing-in-ISO-27001-with-2022-updates_Blog_Files-980x551.png");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image7 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+      /* datascience in geoscience */
+      .services-image8 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/wordle-700x315.jpg");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image8 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+
+      .services-image9 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("/assets/img/service details/reserviour.PNG");
+        height: 430px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .services-image9 h2 {
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        top: 9em;
+        font-weight: bold;
+        left: 2em;
+      }
+
+      /* machine learning */
+.services-image10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("/assets/img/service details/shutterstock_2201056325-860x483.jpg.webp");
+    height: 430px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .services-image10 h2 {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 9em;
+    font-weight: bold;
+    left: 2em;
+  }
+}
+
+
+
+
+
+
