@@ -51,6 +51,7 @@ body {
   color: var(--color-default);
   background-color: var(--color-background);
   font-family: var(--font-default);
+  overflow-x: hidden;
 }
 
 a {
@@ -3417,7 +3418,7 @@ width: 100%;
 /* business analytics learning */
 .services-image11 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
+    url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg~");
   height: 530px;
   width: 100%;
   background-position: center;
