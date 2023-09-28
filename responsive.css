@@ -206,6 +206,16 @@
     font-weight: bold;
     left: 2em;
   }
+  .core{
+    width: 70%;
+    font-size: 14px;
+   }
+}
+@media (max-width: 425px) {
+  .core{
+    width: 100%;
+    font-size: 14px;
+   }
 }
 
 

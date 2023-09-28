@@ -3106,6 +3106,7 @@ width: 100%;
 }
 .content p {
   font-size: 16px;
+  text-align: justify;
   font-family: var(--font-primary);
 }
 .core p {
@@ -3246,7 +3247,7 @@ width: 100%;
 }
 .services-image3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/img/service details/Business-Analytics_Blog-1-scaled.jpeg");
+    url("/assets/img/service details/reserviour.PNG");
   height: 530px;
   width: 100%;
   background-position: center;
@@ -3802,4 +3803,8 @@ color: #fff;
     text-align: center;
     margin: 0 auto;
    }
+
+ }
+ .core{
+  width: 70%;
  }
