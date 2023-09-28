@@ -2933,7 +2933,7 @@ background-color: var(--e-global-color-accent);
 }
 .container-img {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/deivoc/assets/img/contact/ketut-subiyanto-4559605.jpg");
+    url("/assets/img/contact/ketut-subiyanto-4559605.jpg");
   height: 300px;
   width: 100%;
   background-position: center;
@@ -2945,7 +2945,7 @@ background-color: var(--e-global-color-accent);
   color: #fff;
   font-size: 50px;
   position: absolute;
-  top: 4em;
+  top: 5em;
   font-weight: bolder;
   left: 2em;
 }
