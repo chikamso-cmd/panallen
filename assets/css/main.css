@@ -51,7 +51,7 @@ body {
   color: var(--color-default);
   background-color: var(--color-background);
   font-family: var(--font-default);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -3107,7 +3107,7 @@ width: 100%;
 }
 .content p {
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   font-family: var(--font-primary);
 }
 .core p {
@@ -3828,3 +3828,4 @@ color: #fff;
  .core{
   width: 70%;
  }
+ 

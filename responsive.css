@@ -1,4 +1,33 @@
+@media (max-width: 2560px) {
+  .about-cont{
+    width: 90%;
+    justify-content: center;
+    margin-inline: auto;
+   }
+   .icon-boxes {
+    
+  }
+  .about-content{
+     padding: 65px;
+  }
+}
+@media (max-width:1024px) {
+  .icon-boxes {
+    
+  }
+  .about-content{
+     padding: 10px; 
+ }
+}
+
 @media (max-width:768px) {
+  .icon-boxes {
+    
+   
+  }
+  .about-content{
+   
+ }
     .services-image1 {
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
           url("/assets/img/service details/DATAANALYTICSfinal-1686237252944.png");
